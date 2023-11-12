@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="R{}a-zXw)T_0pYf5q?2g">sprite</variable></variables><block type="pxt-on-start" id="k];!#9%JFIO:?x^B,J]d" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="T[A4scee15mV5@X(iWxC"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="music_playable_play" id=",1r-_bM4?)]iLE[T-w4}"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="~i[Y4HY{QFfjnHDFqM^Y"><value name="melody"><shadow type="melody_editor" id="%_h}IOIJV}y3gfU2NA,~"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="}!x)1#=RbtB5=.UD05qf"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></next></block></statement></block><block type="device_forever" id="Vv.sFss}EdUejBWk.!lD" x="214" y="13"></block><block type="device_button_event" id="Vfa;gQNZEI)|Xs-i(|?_" x="3" y="432"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="YGS~dW$1cf##/FgUuq?^"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block><block type="device_button_event" id="E6TKGsF=L4zBs$?2#A)@" x="265" y="436"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="e_=g%I.]%G=R^fz%2A7G"><value name="text"><shadow type="text" id="()Ds5MCplT][f|hBA|[6"><field name="TEXT">Salut </field></shadow></value></block></statement></block><block type="game_sprite_set_property" id="HOD$C_s`tr8W@LL1/Ds8" disabled="true" x="67" y="529"><field name="property">LedSpriteProperty.X</field><value name="sprite"><block type="variables_get" id="gl;vW0vJ2h!m_qli]H|0" disabled="true"><field name="VAR" id="R{}a-zXw)T_0pYf5q?2g">sprite</field></block></value><value name="value"><shadow type="math_number" id="zv_%G1,~)^!$79C@D/9r" disabled="true"><field name="NUM">0</field></shadow></value></block><block type="device_button_event" id="?{}-uhSS5ROU}QvLSlR[" x="-3" y="762"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="8^i8qf/bnq2[GD7mplZ@"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></xml>
